@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>STudent id Form</h1>
+
+        <div class="container left">
+            <div id="details">
+                <label for="inp_name" class="head">Name:</label>
+                <input type="text" name="name" id="inp_name" class="width clr_inp" placeholder="Enter Name">
+                <br>
+
+                <label for="inp_email" class="head">Email:</label>
+                <input type="email" name="email" id="inp_email" class="width clr_inp" placeholder="Enter Mail">
+                <br>
+                <label for="inp_num" class="head">Mob no:</label>
+                <input type="number" name="mobileno" id="inp_num" class="width clr_inp" >
+                <br>
+                <label for="inp_img" class="head">Image:</label>
+                <input type="file" name="img" id="inp_img" accept="image/*" class="clr_inp">
+                <br>
+                <label for="inp_course" class="head">Course:</label>
+                <input type="text" name="course" id="inp_course" class="width clr_inp" placeholder="Enter course">
+                <br>
+                <label for="gender" class="head">Gender:</label>
+                <div class="radios">
+                    <input type="radio" name="gender" id="inp_male" value="Male" class="gender"><label
+                        for="inp_male">Male</label><br>
+                    <input type="radio" name="gender" id="inp_female" value="Female" class="gender"><label
+                        for="inp_female">Female</label>
+                </div>
+                <br>
+
+               
+                <br>
+
+                <div class="buttons">
+                    <button type="submit" id="submit">Register</button>
+                    <button id="clear">Remove Above Data</button>
+                </div>
+
+            </div>
+            <div class="container right">
+                <div id="output">
+
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+
+</html>

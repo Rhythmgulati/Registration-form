@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #6382ca;  
+    background: linear-gradient(to right, #8ba5ff, #2d81ff); 
+  
+        font-size: 1rem;
+}
+
+h1 {
+    padding: 10px;
+    background: #4c5dda;  
+    color: rgb(9, 6, 9);
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    position: fixed;
+}
+
+
+#details {
+    position: fixed;
+    height: 500px;
+    width: 47%;
+    border-right: 3px solid rgb(143, 52, 52);
+    margin-top: 30px;
+    padding: 3%;
+    padding: 40px;
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+    height: 1.7rem;
+    margin-top: 10px;
+    height: fit-content;
+    margin-left: 30px;
+}
+
+input[type=file]::file-selector-button {
+    background-color: rgb(5, 6, 18);
+    color: rgb(244, 235, 235);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: rgb(29, 22, 236);
+    color: #0f0707;
+    border: 2px solid #1e8feb;
+}
+
+.width {
+    width: 70%;
+    padding-left: 5px;
+}
+
+label {
+    text-decoration: underline;
+}
+
+.radios label {
+    text-decoration: none;
+}
+
+.boxes label {
+    text-decoration: none;
+}
+
+#clear {
+    float: right;
+    background-color: rgb(0, 0, 0);
+    color:#DBE6F6;
+}
+
+.buttons {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+button {
+    width: 40%;
+    border-radius: 7px;
+    background-color:rgb(0, 0, 0)  ;
+    color: rgb(237, 233, 233);
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 500;
+    box-shadow: 10px 10px 8px #9491ed;
+}
+
+button:hover {
+    background-color: rgb(3, 4, 5);
+    color: rgb(222, 230, 230);
+    border: 2px solid rgb(208, 201, 201);
+}
+
+#inp_male {
+    accent-color: blue;
+}
+
+#inp_female {
+    accent-color: blue;
+}
+
+.head {
+    font-weight: 900;
+}
+
+.radios {
+    margin-left: 100px;
+}
+
+
+#output {
+    position: absolute;
+    width: 80%;
+    height: 450px;
+    padding: 20px;
+    border-radius:20px;
+    overflow: auto;
+    background: linear-gradient(to right, #063cff, #62a1ff); 
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}
+
+#output::-webkit-scrollbar {
+    width: 15px;
+}
+
+#output::-webkit-scrollbar-thumb {
+    background-color: #334e49;
+    border-radius: 20px;
+    border: 2px  rgb(8, 8, 8);
+    border-style: double;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    border: 2px  black;
+    border-style: double;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.info {
+    overflow-wrap: break-word;
+   font-size: large;
+   font-weight: bold;
+    width: 70%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image {
+   
+    width: 30%;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
